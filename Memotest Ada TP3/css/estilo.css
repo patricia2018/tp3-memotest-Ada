@@ -1,0 +1,169 @@
+html{background-image:url("../img/fondob.jpg");
+    /*background-color: #f42434;*/
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-attachment:fixed;}
+
+
+.game {
+       display: flex;
+       justify-content: space-evenly;
+      z-index: 0
+}
+
+
+
+.cartaOculta{
+	           opacity: 0;
+             width: 200px;
+}
+
+
+.cartaMostrada{
+	            opacity: 1;
+              width:200px;
+}
+
+.girar{
+        transform: rotateY(180deg);
+        transition: .40s;
+}
+
+.volver{
+        transform: rotateY(180deg);
+        transition: .40s;
+}
+
+.juegomemotest td{
+  background: url("../img/dorso.jpg");
+};
+
+/************************seccion de informacion*********************************/
+
+
+.game--grid {}
+
+#tituloImg{width: 90%;
+margin-left: 20px;}
+
+#titulo ,p {color:#f42434;
+           font-family: 'Jua', sans-serif;
+             font-size: 1.5em;
+            text-align: center;
+}
+
+p {font-size: 1.2em;}
+
+.chances{color:#f42434;
+        font-family: 'Jua', sans-serif;
+        font-size: 1.5em;
+        text-align: center;}
+
+.contenedor {
+             width: 25vw;
+             background-color: #FFE295;
+             border-radius: 2%;
+             color: #890717;
+             display: flex;
+             flex-direction: column;
+             padding: 10px;
+             margin-top: 50px;
+             border-color:black 2px;
+}
+
+#caritas{
+         margin-left: 30px;
+         justify-content: flex-center;}
+ 
+.name--intro {
+             margin-top: 10px;
+             color: #f42434;
+             font-family: 'Jua', sans-serif;
+             font-size: 1.2em;
+             text-align: center;
+
+}
+
+.game--grid { margin-top: 210px;
+
+}
+.contenedor{z-index: 1
+           width:100%;
+           height: 100%;}
+
+.name--input ,#jugar {
+                      text-decoration: none;
+                      padding: 10px;
+                      font-weight: 600;
+                      font-family: 'Jua', sans-serif;
+                      font-size: 1.5em;
+                      margin: 30px;
+                      color: #ffffff;
+                      background-color: #0295df;
+                      border-radius: 6px;
+                      border: 3px solid black;*/
+
+}
+.name , #variedadNiveles {
+                           text-decoration: none;
+                           padding: 10px;
+                           font-family: 'Jua', sans-serif;
+                           font-size: 1.2em;
+                           color:#C21308;
+                           background-color:white;
+                           border-radius: 6px;
+                           border: 3px solid black;
+}
+
+#intentosP{color: #0586C8;
+           font-size: 2em;}
+
+ /*---------------------hoja de ranking----------------------------------*/        
+
+.Ranking {
+        text-decoration: none;
+        padding: 10px;
+        font-weight: 600;
+        margin: 30px;
+        background-color: #0295df;
+        border-radius: 6px;
+        border: 3px solid black;
+       margin-top: 1000px;
+}
+#atras{
+        text-decoration: none;
+        padding: 20px;
+        font-weight: 300;
+        margin: 30px;
+        background-color: #0295df;
+        border-radius: 6px;
+        border: 3px solid black;
+       margin-top: 500px;
+}
+
+#contenedor2{
+  display: flex;
+}
+#puntaje{ text-align: center;}
+
+#puntaje td{height:50px; 
+            width:200px; 
+            padding: 20px;
+            margin: 300px;
+            color:#C21308;
+            border-radius: 6px;
+            border: 3px solid black;
+            margin-top: 500px;
+            font-family: 'Jua', sans-serif;
+            font-size: 1.8em;
+            background: url("../img/fondoc.jpg");
+           
+}
+
+.juegomemotest {
+  /*border: black 3px solid;*/
+  box-shadow: 2px 2px 5px #999;
+}
+
+.imagenPie{margin-top:1000px auto;}

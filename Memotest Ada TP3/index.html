@@ -1,0 +1,75 @@
+<!DOCTYPE html >
+<html >
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+	<meta content="" name="description">
+	<meta http-equiv="X-UA-Comatible" content="ie=edge">
+	<title>Memotest Ada</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+  <link rel="stylesheet" type="text/css" href="jqueryui/yquary-ui.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+  <link rel="shortcut icon" href="http://www.genfavicon.com/inc/to_ico.php">
+
+</head>
+	
+
+<body class="hoja1">
+<main class="game">
+  <section class="contenedor">
+  	<div id="caritas">
+  		<img src="img/h.png">
+  	</div>
+    <img  id="tituloImg" src="img/titulo.png">
+    <p id="titulo">Instrucciones:</p>
+    <p>Selecciona algun nivel y encontra los 6 pares de personajes que coincidan. </br>¡Buena suerte!</p>
+    <p class="chances">Te quedan:
+    <span id="intentosP"></span> oportunidades.</p>
+    <input class="name" id="name"  type="text" name="" value="" placeholder="Escribí tu nombre" />
+      <button class="name--input" type="button" name="button">Listo</button>
+      <section class="name--intro">
+  </section>
+
+  <select id="variedadNiveles" name="variedadNiveles">
+          <option value="0" disable selected>Niveles de Memotest</option>
+          <option value="1">Fácil - 18 movimientos</option>
+          <option value="2">Intermedio - 12 movimientos</option>
+          <option value="3">Experto - 8 movimientos</option>
+        </select>
+       <button type="button" value="enviar" id="jugar">JUGAR</button>
+  </section>
+
+
+  <section class="game--grid" id = "instruccionesCartas">
+      <table class="juegomemotest">
+				<tr>
+					<td id="ficha0" ></td>
+					<td id="ficha1" ></td>
+					<td id="ficha2"></td>
+					<td id="ficha3"></td>
+					
+				</tr>
+				<tr>	
+					<td id="ficha4"></td>
+					<td id="ficha5"></td>
+					<td id="ficha6"></td>
+					<td id="ficha7"></td>
+				</tr>
+				<tr>	
+					<td id="ficha8"></td>
+					<td id="ficha9"></td>
+					<td id="ficha10"></td>
+					<td id="ficha11"></td>
+				</tr>	
+		</table>
+  </section>
+
+<a href="puntuacion.html"  class="Ranking" target="_blank"><img src="img/ranking1.png"></a>
+</main>
+
+<script src="js/jquery.js" type="text/javascript"></script>	
+<script src="jqueryui/jquery-ui.js"></script>
+<script src="js/memotest.js" type="text/javascript"></script>
+</body>
+
+
+</html>
